@@ -1,0 +1,10 @@
+<!-- Session cookie auth not usable until PowerSchool 9.x, keeping this here until then -->
+<permission_mappings>
+  <permission name='/teachers/classattendance.html'>
+   <implies allow="post">/ws/schema/query/org.irondistrict.iep.queries.alert</implies>
+   <implies allow="post">/ws/schema/query/org.irondistrict.iep.queries.attendance_alert</implies>
+  </permission>
+  <permission name='/admin/home.html'>
+   <implies allow="post">/ws/schema/query/org.irondistrict.iep.queries.alert</implies>
+  </permission>
+</permission_mappings>
